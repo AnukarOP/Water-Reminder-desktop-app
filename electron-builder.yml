@@ -1,0 +1,34 @@
+appId: com.example.waterreminder
+productName: Water Reminder
+
+generateUpdatesFilesForAllChannels: false
+publish: false
+removePackageScripts: true
+
+mac:
+  icon: 'assets/icons/app-icon.icns'
+  identity: null
+  strictVerify: false 
+  target:
+    - dmg
+    - zip
+  hardenedRuntime: true
+
+files:
+  - "!node_modules/**/*"
+  - src/**/* 
+  - assets/**/* 
+  - package.json
+  - electron-builder.yml
+  - "!**/*.map" 
+  - "!**/*.ts" 
+  - "!**/*.md"
+
+extraResources:
+  - from: "assets"
+    to: "assets"
+    filter: ["!**/*.{ico,svg,ai,psd}"]
+
+directories:
+  buildResources: 'assets/icons'
+  output: 'dist'

@@ -1,0 +1,37 @@
+{
+  "name": "water-reminder",
+  "productName": "Water Reminder",
+  "version": "0.5.1",
+  "description": "A simple Electron application that reminds you to drink water every hour.",
+  "main": "src/main.js",
+"scripts": {
+  "start": "electron .",
+  "build": "electron-builder --config electron-builder.yml",
+  "clean": "rimraf dist",
+  "prebuild": "yarn clean && if not exist dist mkdir dist",
+  "postbuild": "node scripts/optimize-package.js",
+  "makeicons": "node scripts/makeicons.js"
+},
+  "keywords": [
+    "Electron",
+    "water",
+    "reminder",
+    "timer"
+  ],
+  "author": "Roberto Marchetti <rmarchet@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "clean": "^4.0.2"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^24.0.0",
+    "rimraf": "^6.0.1"
+  },
+  "build": {
+    "appId": "com.example.waterreminder",
+    "mac": {
+      "icon": "assets/icons/app-icon.icns"
+    }
+  }
+}
