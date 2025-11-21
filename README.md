@@ -2,9 +2,6 @@
 <h1 align="center">💧 Water Reminder Desktop App</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/platform-Electron-47848F?logo=electron&logoColor=white" />
-  <img src="https://img.shields.io/github/stars/AnukarOP/Water-Reminder-desktop-app?style=flat&color=blue" />
-  <img src="https://img.shields.io/github/forks/AnukarOP/Water-Reminder-desktop-app?style=flat&color=blueviolet" />
-  <img src="https://img.shields.io/github/license/AnukarOP/Water-Reminder-desktop-app?color=success" />
   <a href="https://github.com/sponsors/AnukarOP">
     <img src="https://img.shields.io/badge/Sponsor-❤-ff69b4" />
   </a>
@@ -116,5 +113,6 @@ MIT
 <p align="center">
   Made with ❤️ by Anukar.
 </p>
+
 
 
