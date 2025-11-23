@@ -51,8 +51,8 @@ water-reminder
 
 ## Installation
 ```bash
-git clone hter-reminder
-yarn installtps://github.com/AnukarOP/Water-Reminder-desktop-app.git
+git clone https://github.com/AnukarOP/Water-Reminder-desktop-app.git
+yarn install
 cd Water-Reminder-desktop-app
 ```
 
@@ -113,6 +113,7 @@ MIT
 <p align="center">
   Made with ❤️ by Anukar.
 </p>
+
 
 
 
